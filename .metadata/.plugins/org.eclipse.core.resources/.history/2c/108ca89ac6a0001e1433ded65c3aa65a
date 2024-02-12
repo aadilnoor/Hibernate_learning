@@ -1,0 +1,12 @@
+package com.code;
+
+import org.hibernate.SessionFactory;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Project Started..." );
+        SessionFactory factory = new Configuration().Configure().buildSessionFactory();
+    }
+}

@@ -1,0 +1,11 @@
+127.0.0.1 - - [24/Dec/2023:23:05:37 -0800] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [24/Dec/2023:23:05:40 -0800] "GET /Hospital_Management/ HTTP/1.1" 200 6722
+0:0:0:0:0:0:0:1 - - [24/Dec/2023:23:05:41 -0800] "GET /Hospital_Management/img/1.jpg HTTP/1.1" 200 90228
+0:0:0:0:0:0:0:1 - - [24/Dec/2023:23:05:41 -0800] "GET /Hospital_Management/img/99.jpg HTTP/1.1" 200 54375
+0:0:0:0:0:0:0:1 - - [24/Dec/2023:23:05:41 -0800] "GET /Hospital_Management/img/31.webp HTTP/1.1" 200 86894
+0:0:0:0:0:0:0:1 - - [24/Dec/2023:23:05:41 -0800] "GET /Hospital_Management/img/55.jpg HTTP/1.1" 200 29042
+0:0:0:0:0:0:0:1 - - [24/Dec/2023:23:05:41 -0800] "GET /Hospital_Management/img/miya.jpg HTTP/1.1" 200 196739
+0:0:0:0:0:0:0:1 - - [24/Dec/2023:23:05:41 -0800] "GET /Hospital_Management/img/doctor1.jpg HTTP/1.1" 200 19914
+0:0:0:0:0:0:0:1 - - [24/Dec/2023:23:05:41 -0800] "GET /Hospital_Management/img/lab.avif HTTP/1.1" 200 78421
+0:0:0:0:0:0:0:1 - - [24/Dec/2023:23:05:41 -0800] "GET /Hospital_Management/img/nice.avif HTTP/1.1" 200 15587
+0:0:0:0:0:0:0:1 - - [24/Dec/2023:23:05:41 -0800] "GET /favicon.ico HTTP/1.1" 404 762

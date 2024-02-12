@@ -1,0 +1,8 @@
+127.0.0.1 - - [26/Dec/2023:21:33:42 -0800] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [26/Dec/2023:21:33:43 -0800] "GET /Hospital-System/ HTTP/1.1" 200 6897
+0:0:0:0:0:0:0:1 - - [26/Dec/2023:21:33:49 -0800] "GET /Hospital-System/doctor_login.jsp HTTP/1.1" 200 3025
+0:0:0:0:0:0:0:1 - - [26/Dec/2023:21:34:01 -0800] "POST /Hospital-System/doctorLogin HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/Dec/2023:21:34:01 -0800] "GET /Hospital-System/doctor_login.jsp HTTP/1.1" 200 3119
+0:0:0:0:0:0:0:1 - - [26/Dec/2023:21:34:14 -0800] "POST /Hospital-System/doctorLogin HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/Dec/2023:21:34:14 -0800] "GET /Hospital-System/doctor/index.jsp HTTP/1.1" 200 3116
+0:0:0:0:0:0:0:1 - - [26/Dec/2023:21:34:17 -0800] "GET /Hospital-System/doctor/patient.jsp HTTP/1.1" 200 3598

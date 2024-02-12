@@ -1,0 +1,30 @@
+package com.basic;
+public class RethrowExceptionInCatchBlock {
+    public static void main(String[] args) {
+        try {
+            // Some code that may throw an exception
+            throwException();
+            
+        } catch (CustomException e) {
+        	
+            // Additional handling or logging
+            System.out.println("Caught CustomException: " + e.getMessage());
+
+            // Rethrow the same exception
+            throw e;
+        }
+    }
+
+    private static void throwException() throws CustomException {
+        // Simulating an exception
+        throw new CustomException("An error occurred.");
+    }
+}
+
+class CustomException extends Exception {
+    public CustomException(String message) {
+        super(message);
+    }
+}
+
+

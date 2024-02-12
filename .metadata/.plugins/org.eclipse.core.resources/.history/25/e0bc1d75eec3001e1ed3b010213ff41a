@@ -1,0 +1,34 @@
+package com.hql;
+
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.query.Query;
+
+public class HQLExample {
+	public static void main(String[] args) {
+		Configuration cfg = new Configuration();
+		cfg.configure("hibernate.cfg.xml");
+		SessionFactory factory = cfg.buildSessionFactory();
+
+		Session session = factory.openSession();
+
+		String query = "from Student where session.city:x and sessio.name:x";
+		Query query2 = session.createQuery(query);
+		
+		query2.setParameter("x", "PUNE");
+		query2.setParameter("x", "SAMEER");
+		
+		// single result (unique)
+		// multiple result (list)
+		// query2.uniqueResult();
+		List<Student> list = query2.list();
+
+		for (Student student : list) {
+			System.out.println(student.getName());
+		}
+
+	}
+}

@@ -1,0 +1,7 @@
+.pink{
+   background:#e91e63; 
+}
+
+.NoteTaker {
+  font-weight: bold;
+}

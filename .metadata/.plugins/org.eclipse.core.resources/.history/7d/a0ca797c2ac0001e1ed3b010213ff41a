@@ -1,0 +1,11 @@
+.pink{
+   background:#e91e63; 
+}
+
+.blue{
+	background: #00e676;
+}
+
+.green{
+	background: #00e676;
+}

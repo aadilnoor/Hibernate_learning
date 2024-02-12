@@ -1,0 +1,32 @@
+<%@page import="com.entities.Notes"%>
+<%@page import="com.helper.FactoryProvider"%>
+<%@page import="org.hibernate.Session"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Edit Page</title>
+<%@include file="all_js_css.jsp"%>
+</head>
+<body>
+
+	<div class="container">
+
+		<%@include file="navbar.jsp"%>
+		<h1 class="container text-center">This is Edit Page</h1>
+	</div>
+
+	<%
+	int noteId = Integer.parseInt(request.getParameter("note_id").trim());
+
+	Session session2 = FactoryProvider.getFactory().openSession();
+	Notes note = (Notes) session2.get(Notes.class, noteId);
+
+	session2.close();
+	response.sendRedirect("all_notes.jsp");
+	%>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+
+Nov 24, 2023 23:40:03.41 NEW SESSION
+Nov 24, 2023 23:40:03.42 [1308:6560:1124/234003.408:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 25, 2023 03:05:13.15 [1308:6560:1125/030513.155:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 25, 2023 05:14:53.60 [1308:6560:1125/051453.602:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 25, 2023 05:15:00.37 [1308:6560:1125/051500.375:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 25, 2023 19:47:14.73 [1308:6560:1125/194714.729:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+
+Nov 25, 2023 23:44:10.56 NEW SESSION
+Nov 25, 2023 23:44:10.58 [880:5016:1125/234410.561:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 26, 2023 02:24:24.47 [880:6532:1126/022424.470:ERROR:device_event_log_impl.cc(192)] [02:24:24.470] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 26, 2023 05:39:34.23 [880:5016:1126/053934.233:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 26, 2023 06:09:43.08 [880:5016:1126/060943.083:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2

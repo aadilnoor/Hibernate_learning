@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<%@include file="all_js_css.jsp"%>
+
+<title>Notes : Home Page</title>
+</head>
+<body>
+
+	<div class="container">
+
+		<%@include file="navbar.jsp"%>
+		<!-- 		<h1 class="container text-center text-primary">Welcome</h1>
+ -->
+
+		<div class="card shadow bg-white py-5">
+
+			<img alt="" class="img-fluid mx-auto" style="max-width: 400px"
+				src="img/removebg.png">
+			<h1 class="text-success text-uppercase text-center mt-3">Start
+				Writing Your Notes</h1>
+			<div class="container text-center">
+	
+				<button class="btn btn-outline-primary shadow bg mt-3" type="submit">Start
+					Here</button>
+
+
+			</div>
+
+		</div>
+	</div>
+
+
+</body>
+</html>

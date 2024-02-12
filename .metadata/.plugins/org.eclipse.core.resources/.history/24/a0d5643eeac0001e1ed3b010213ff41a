@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<%@include file="all_js_css.jsp"%>
+
+<title>Notes : Home Page</title>
+</head>
+<body>
+
+	<div class="container">
+
+		<%@include file="navbar.jsp"%>
+		<h1 class="container text-center text-primary">Welcome</h1>
+		<br>
+
+		<div class="card">
+
+			<img alt="" class="img-fluid mx-auto mt-3" style="max-width: 300px"
+				src="img/removebg.png">
+			<h1 class="text-success text-center mt-3">Start Writing Your
+				Notes</h1>
+			<div class="container text-center mt-2">
+				<button class="btn btn-outline-primary" type="submit">Start
+					Here</button>
+
+			</div>
+
+		</div>
+	</div>
+
+
+</body>
+</html>

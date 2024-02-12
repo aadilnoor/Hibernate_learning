@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\ehtesham\eclipse-workspace\ManyToManyHibernateExample"/>
+			<item value="C:\Users\ehtesham\eclipse-workspace\OneToManyHibernateExample\src\main\java\hibernate.cfg.xml"/>
+			<item value="C:\Users\ehtesham\eclipse-workspace\OneToOneHibernateExample\pom.xml"/>
+			<item value="C:\Users\ehtesham\eclipse-workspace\UsingOtherClassFieldInEntityClassByUsingEmbeddableAnnotation"/>
+			<item value="C:\Users\ehtesham\eclipse-workspace\StartUpHibernate\src\main\java\com\hiber\Student.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.tut"/>
+			<item value="com.todo"/>
+			<item value="com.map"/>
+			<item value="com.hiber"/>
+		</list>
+		<list key="groupId">
+			<item value="com.tut"/>
+			<item value="com.todo"/>
+			<item value="com.map"/>
+			<item value="com.hiber"/>
+		</list>
+		<list key="artifactId">
+			<item value="HQL-Hibernate-Example"/>
+			<item value="HQL-Example"/>
+			<item value="NoteTakerProjectHibernate"/>
+			<item value="ObjectStateExample"/>
+			<item value="FetchDataTechnique"/>
+			<item value="ManyToManyHibernateExample"/>
+			<item value="OneToManyHibernateExample"/>
+			<item value="OneToOneHibernateExample"/>
+			<item value="UsingOtherClassFieldInEntityClassByUsingEmbeddableAnnotation"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>
